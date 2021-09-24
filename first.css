@@ -1,0 +1,220 @@
+.header .content-box {
+  background-image: linear-gradient(
+      rgba(30, 211, 30, 0.6),
+      rgba(238, 241, 29, 0.6)
+    ),
+    url(oracle-arena-002.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 1900px;
+  height: 1000px;
+}
+body {
+  overflow-x: hidden;
+}
+
+.menu {
+  display: inline-flex;
+}
+.menu img {
+  height: 80px;
+  margin: 20px 0 0 110px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: red;
+}
+.menu button {
+  padding: 5px 20px;
+  background: rgb(200, 37, 37);
+  color: white;
+  font-size: 32px;
+  border: 0;
+
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  border-radius: 10px;
+}
+
+.menu button .fas {
+  margin-right: 20px;
+}
+.banner-text {
+  width: 1600px;
+  color: white;
+  margin: 16% auto 0;
+  text-align: center;
+}
+.banner-text h2 {
+  margin-top: 50px;
+  font-size: 64px;
+}
+
+.banner-text p {
+  font-size: 14px;
+  margin: 20px 0 50px;
+}
+
+.banner-text a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid red;
+  display: block;
+  padding: 10px;
+  width: 180px;
+  margin: auto;
+  background: rgb(200, 37, 37);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.banner-text a:hover {
+  background: transparent;
+}
+/* service */
+.content-box {
+  background: white;
+  width: 1900px;
+  height: 1000vh;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1::after {
+  content: "";
+  width: 1600px;
+  color: white;
+  margin: 16% auto 0;
+  text-align: center;
+  margin: 20px auto 50px;
+}
+
+.services .icon {
+  font-size: 50px;
+  margin: 20px auto;
+  padding: 2px;
+  height: 70px;
+  width: 70px;
+  border: 3px solid black;
+  border-radius: 50%;
+  color: black;
+}
+
+.services span {
+  color: red;
+  transition: 0.3s;
+}
+
+.services .col-md-3:hover {
+  background: #1bee08;
+  cursor: pointer;
+  color: rgb(123, 228, 37);
+  box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+}
+.services .col-md-3:hover icon {
+  border: 2px solid #fff;
+  color: #fff;
+}
+.services .col-md-3:hover p {
+  color: white;
+}
+.services .col-md-3:hover span {
+  color: white;
+}
+/* Features--------------- */
+
+.feature h2 {
+  margin-top: 130px;
+}
+.feature h2::after {
+  content: "";
+  background: #1bee08;
+  display: block;
+  height: 2px;
+  width: 155px;
+  margin: 5px auto 50px;
+  position: absolute;
+  left: 17px;
+}
+.feature ul {
+  margin-top: 30px;
+  margin-left: 50px;
+  list-style-type: none;
+}
+.feature ul li {
+  line-height: 40px;
+  font-size: 14px;
+  position: relative;
+}
+.feature ul li::after {
+  content: "";
+  height: 7px;
+  width: 7px;
+  background: #1bee08;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 17px;
+  left: -25px;
+}
+
+.feature img {
+  margin-top: 130px;
+}
+
+/* Footer------------------------- */
+.footer h1 {
+  padding-top: 50px;
+}
+.form-control {
+  border-radius: 0;
+  border: none t;
+  box-shadow: none;
+}
+
+::placeholder {
+  font-size: 12px;
+}
+.contact-form button {
+  border: none;
+  background: rgb(200, 37, 37);
+  box-shadow: none;
+  border-radius: 10px;
+}
+
+.contact-info .follow {
+  background-color: white;
+  padding-top: 8px;
+  margin: 15px;
+}
+.contact-info .fa {
+  margin: 10px;
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+  padding-right: 20px;
+}
+.contact-info span {
+  font-size: 14px;
+}
+.copyright {
+  text-align: center;
+  font-size: 14px;
+}
+.fa-heart-o {
+  color: red;
+  font-size: 17px;
+}
+
+.footer hr {
+  margin-top: 50px;
+  background: white;
+}
+.service,
+.feature,
+.footer {
+  margin-top: 10%;
+}
