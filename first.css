@@ -83,13 +83,15 @@ h1 {
   padding-top: 100px;
 }
 
-h1::after {
+.service h1::after {
   content: "";
-  width: 1600px;
-  color: white;
-  margin: 16% auto 0;
-  text-align: center;
-  margin: 20px auto 50px;
+  background: #1bee08;
+  display: block;
+  height: 2px;
+  width: 170px;
+  margin: 5px auto 50px;
+  position: absolute;
+  left: 870px;
 }
 
 .services .icon {
